@@ -1,6 +1,6 @@
 import React from 'react'
 import Section1 from "./components/Section 1/Section1";
-import Section2 from "./components/Section 2/Section2";
+
 import { Tag } from 'lucide';
 const App = () => {
   const users = [
@@ -38,7 +38,7 @@ const App = () => {
   return (
     <div className=''>
       <Section1 users={users} />
-      <Section2 />
+      
     </div>
   )
 }
