@@ -4,7 +4,14 @@ import Arrow from './Arrow'
 
 const LeftContent = () => {
   return (
-    <div className='h-full w-1/2 flex flex-col justify-between -blue-200 '>
+    <div className="
+w-full
+lg:w-1/2
+flex
+flex-col
+justify-between
+items-start
+">
       <HeroText/>
       <Arrow />
       
